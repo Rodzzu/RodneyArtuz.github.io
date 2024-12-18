@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodney Artuz Portfolio</title>
+    <link rel="stylesheet" type= "text/css" href = "CSS\NavCSS\styles_nav.css">
+    <link rel="stylesheet" type= "text/css" href = "CSS\stylesartuz.css">
+    <script defer src="script.js"></script>
+</head>
+
+
+<body>
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="">Rodzzu.</a>
+        </div>
+        <div class="dropdown">
+            <div class="menu-button" id="menuButton">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#about-me1">About Me</a>
+                <a href="#dev">My Projects</a>
+                <a href="#contact">Contact</a>
+                <hr>
+                <p id="dropdownmenup">Socials</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/FlarpyMac/" target="_blank"><img src="Images/fb.png"alt="Facebook"></a>
+                    <a href="https://github.com/Rodzzu/" target="_blank"><img src="Images/gh.png"alt="GitHub"></a>
+                    <a href="https://www.instagram.com/rodneyartuz4/" target="_blank"><img src="Images/ig.png"alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <!-- Actual Body/Main Content -->
+    <div class= "content">
+        <div class="background"> <!--this-->
+            <!-- Personal Info Section (First thing you see sa website) -->
+            <div class="personal-info">
+                <div class="pfp-container">
+                    <img class="blob" src="Images/3.svg" alt="Blob SVG">
+                    <img id="pfp" src="Images/samplepfp.jpg" alt="Profile Picture">
+                </div> <!-- this-->
+            
+                <div id= "desc">
+                    <h1><b>Hello! I'm Rodney!</b></h1>
+                    <p>
+                        I'm a computer science student at Lyceum of the Philippines - Cavite, welcome to my website!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About Me Section - Part 1 (Second thing you see sa website) -->
+        <div class="about-me" id="about-me1">
+            <div class="background2">
+                <div class="about-me-content">
+                    <img class= "about-me-slider" id="about-me-image" src="Images\aboutme.jpeg" alt="">
+                    <div class="description" id="about-me">
+                        <h1><b>About Me</b></h1>
+                        <p>Hello! My name is Rodney John A. Artuz, I’m currently a sophomore computer science student at
+                            Lyceum of the Philippines University – Cavite Campus.
+                            I’m an aspiring software engineer that’s determined to build my skills in both fields to become
+                            a proficient full-stack developer in the coming years.</p>
+                    </div>
+                    <div class="description" id="hobbies">
+                        <h1><b>Hobbies & Interests</b></h1>
+                        <p>Outside of academics, I love to play FPS games of all genres, but I also like to juggle around different genres,
+                            like action role-playing games, survival games, etc. Apart from all of this, I like to stay updated around the tech world,
+                            just to see what’s up and what kind of development is currently going on.</p>
+                    </div>
+                    <div class="about-me-image" id="hobbies-image">
+                        <img class= "about-me-slider" src="Images\hobbies.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About Me Section - Part 2 (Third thing you see sa website) -->
+        <div class="about-me" id="about-me2">
+            <div class="background3">
+                <div class="about-me-content">
+                    <img class= "about-me-slider" id="about-me-image" src="Images\languages.png" alt="">
+                    <div class="description" id="about-me">
+                        <h1><b>Skills</b></h1>
+                        <p>Some of the languages I’ve learned so far are Python, Java, C++ for backend development. As for web development
+                            I’ve grasped PHP, HTML, CSS, and JavaScript. For data analytics, I’ve also utilized MySQL.
+                            Overall, I’d say I’m an excellent team player that can communicate clearly and is ready to
+                            contribute my problem-solving and critical thinking skills.</p>
+                    </div>
+                    <div class="description" id="rem">
+                        <h1><b>Another Side of Me</b></h1>
+                        <p>Besides these things, I’ve also got myself into the real-estate business, I help out my parents on their endeavors here,
+                            and I usually handle their marketing and inventory tracking. If you’re interested, just give message us <a id="here" href="https://www.facebook.com/kirstenzoerealty">here</a> :P</p>
+                    </div>
+                    <div class="about-me-image" id="real-estate-img">
+                        <img class= "about-me-slider" id="sonrisa" src="Images\sonrisa cookin.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- My Projects Section (Fourth thing you see sa website) -->
+        <div class="dev-side" id="dev">
+            <h2 id="devh2"><b>My Developer Side</b></h2>
+            <div class="content-card">
+                <a href="//github.com/Rodzzu/Personal-Projects/tree/main/Python%20Projects">
+                    <div class="dev-card" id="python-projects">
+                        <img class="card-img" src="Images\python_bg.jpg" alt="Python Projects">
+                        <hr>
+                        <h2>Python Projects</h2>
+                        <p>Here's a collection of the python projects I've developed.</p>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/Rodzzu/Personal-Projects/tree/main/DSA%20Projects">
+                    <div class="dev-card" id="dsa-projects">
+                        <img class="card-img" src="Images\dsa_bg.jpg" alt="Data Structures and Algorithms Projects">
+                        <hr>
+                        <h2>DSA Projects</h2>
+                        <p>Here lies the projects that I've developed that <br>are related to data structures and algorithms.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Rodzzu/Personal-Projects/tree/main/WebDev%20Projects">
+                    <div class="dev-card" id="web-projects">
+                        <img class="card-img" src="Images\pixel1.jpg" alt="WebDev Development">
+                        <hr>
+                        <h2>Web Dev Projects</h2>
+                        <p>Here's a collection of the websites I've built so far.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer Section (Fifth thing you see sa website) -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-contacts">
+                    <h2>Contacts</h2>
+                    <p>rodneyjohnartuz@gmail.com</p>
+                    <p>2023-2-02298@lpunetwork.edu.ph</p>
+                </div>
+                <div class="footer-socials">
+                    <h2>Socials</h2>
+                    <div class="socials" id="footer-logo">
+                        <a href="https://www.facebook.com/FlarpyMac/" target="_blank"><img src="Images/fb.png"alt="Facebook"></a>
+                        <a href="https://github.com/Rodzzu/" target="_blank"><img src="Images/gh.png"alt="GitHub"></a>
+                        <a href="https://www.instagram.com/rodneyartuz4/" target="_blank"><img src="Images/ig.png"alt="Instagram"></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="copyright">
+                <p>Copyright &copy; Rodney John Artuz 2024 Designed By: <a href="https://fb.me/profile.php/"> Rodney John A. Artuz</a></p>
+            </div>
+        </footer>
+ </div>
+
+</body>
+</html>
